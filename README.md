@@ -2,6 +2,7 @@
 
 In this course I will learn how to explore, organize, model, and visualize
 data using languages like SQL and Python. 
+(Each week contains completed homework assignments)
 
 # Week 1
 Using Jupyter Notebook
