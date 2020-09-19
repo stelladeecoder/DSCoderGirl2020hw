@@ -1,8 +1,9 @@
 # Data Science Coder Girl 2020 Cohort
 
-In this course I will learn how to explore, organize, model, and visualize
+In this course I learned how to explore, organize, model, and visualize
 data using languages like SQL and Python. 
-(Each week contains completed homework assignments)
+
+* Each week contains completed homework assignments
 
 # Week 1
 Intro to Python & Jupyter Notebook
