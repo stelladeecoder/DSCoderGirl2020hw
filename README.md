@@ -5,7 +5,7 @@ data using languages like SQL and Python.
 (Each week contains completed homework assignments)
 
 # Week 1
-Using Jupyter Notebook
+Intro to Python & Jupyter Notebook
 
 [hw1_problem_set.ipynb](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/hw1_problem_set.ipynb)
 
@@ -25,3 +25,11 @@ Python: Numpy Arrays
 [HeroesOfPymoli_starter.ipynb](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/HeroesOfPymoli_starter.ipynb)
 
 
+# Week 5 
+Python: Pandas Dataframes 
+
+[weather_api.ipynb](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/weather_api.ipynb)
+
+Python: Plotting (matplotlib and Seaborn) : What's the Weather Like?
+
+[WeatherPy_homework_starter.ipynb](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/WeatherPy_homework_starter.ipynb)
