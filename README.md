@@ -37,12 +37,16 @@ Python: Plotting (matplotlib and Seaborn) : What's the Weather Like?
 
 ## City Lattitue vs Max Temperature Plot
 
+*The scatter plots show that the closer you are to the equator the higher the temperature.
+
+
 ![Test Image 1](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_max_temp.png?raw=true)
 
 ![Test Image 2](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_temp_sns.png?raw=true)
 
 
 ## Latitude vs. Humidity Plot
+*The closer you are to the equator the higher the humidity. 
 
 ![Test Image 3](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_humidity.png?raw=true)
 
@@ -50,11 +54,15 @@ Python: Plotting (matplotlib and Seaborn) : What's the Weather Like?
 
 ## Latitude vs. Cloudiness Plot
 
+*Do not show any corelation between latitude and cloudiness.
+
 ![Test Image 4](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_cloud.png?raw=true)
 
 ![Test Image 4](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_cloudy_sns.png?raw=true)
 
 ## Latitude vs. Wind Speed Plot
+
+* Do not see any corelation between latitude and wind speed. 
 
 ![Test Image 5](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_wind.png?raw=true)
 
