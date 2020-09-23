@@ -34,3 +34,28 @@ Python: Pandas Dataframes
 Python: Plotting (matplotlib and Seaborn) : What's the Weather Like?
 
 [WeatherPy_homework_starter.ipynb](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/WeatherPy_homework_starter.ipynb)
+
+## City Lattitue vs Max Temperature Plot
+
+![Test Image 1](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_max_temp.png?raw=true)
+
+![Test Image 2](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_temp_sns.png?raw=true)
+
+
+## Latitude vs. Humidity Plot
+
+![Test Image 3](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_humidity.png?raw=true)
+
+![Test Image 3](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_humid_sns.png?raw=true)
+
+## Latitude vs. Cloudiness Plot
+
+![Test Image 4](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_cloud.png?raw=true)
+
+![Test Image 4](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_cloudy_sns.png?raw=true)
+
+## Latitude vs. Wind Speed Plot
+
+![Test Image 5](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_wind.png?raw=true)
+
+![Test Image 5](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_wind_sns.png?raw=true)
