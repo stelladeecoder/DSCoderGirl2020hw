@@ -86,7 +86,7 @@ SELECT year,
   /* make the west > ( grater than) the midwest and noreast combined (add them) */
 
 
-/* Write a query that calculates the percentage of all houses completed in the United States represented by each region. Only return results from the year 2000 and later. *?
+/* Write a query that calculates the percentage of all houses completed in the United States represented by each region. Only return results from the year 2000 and later. */
 
 SELECT year,
        month,
@@ -99,7 +99,49 @@ SELECT year,
 
  /* returns 100 rows */
 
+/* Write a query that returns all rows for which Ludacris was a member of the group. */
+
+SELECT *
+  FROM tutorial.billboard_top_100_year_end
+ WHERE "group" ILIKE '%ludacris%'
+ /* To ignore case when you're matching values, you can use the ILIKE command */
+
+
+ /* Write a query that returns all rows for which the first artist listed in the group has a name that begins with "DJ". */
+
+ SELECT *
+  FROM tutorial.billboard_top_100_year_end
+ WHERE "group" LIKE 'DJ%'
+
+ /* Use LIKE instead of ILIKE */
+
+
+ /* Write a query that shows all of the entries for Elvis and M.C. Hammer. */
+
+ SELECT *
+  FROM tutorial.billboard_top_100_year_end
+ WHERE "group" IN ('M.C. Hammer', 'Hammer', 'Elvis Presley')
+ /* M.C. Hammer is actually on the list under multiple names, so I had to first write a query to figure out exactly how M.C. Hammer is listed. */
+
+
+/* Write a query that shows all top 100 songs from January 1, 1985 through December 31, 1990. */
+
+SELECT *
+  FROM tutorial.billboard_top_100_year_end
+ WHERE year BETWEEN 1985 AND 1990
+ /* Where is the year use between 1985 and 1990 */
+
+
+/* Write a query that shows all of the rows for which song_name is null. */
+SELECT *
+  FROM tutorial.billboard_top_100_year_end
+ WHERE song_name IS NULL
+ /* returns 6 rows */
+
  
+
+
+
 
 
 
