@@ -69,6 +69,11 @@ Python: Plotting (matplotlib and Seaborn) : What's the Weather Like?
 ![Test Image 5](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/lat_wind_sns.png?raw=true)
 
 # Week 6
-SQL Tutorial for Data Analysis
+SQL Tutorial for Data Analysis (Basic)
 
 [basic.sql](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/basic.sql)
+
+# Week 7
+SQL Tutorial for Data Analysis (Intermediate)
+
+[intermediate.sql](https://github.com/stelladeecoder/DSCoderGirl2020hw/blob/master/intermediate.sql)
