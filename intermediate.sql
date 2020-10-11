@@ -27,3 +27,37 @@ SELECT MAX(close - open)
   FROM tutorial.aapl_historical_stock_price
 /* highest was an increase of $32.58 */
 
+/* Write a query that calculates the average daily trade volume for Apple stock. */
+SELECT AVG(volume) AS avg_volume
+  FROM tutorial.aapl_historical_stock_price
+SELECT AVG(volume) AS avg_volume
+/* 20745814.35 is the average */
+
+/* Calculate the total number of shares traded each month. Order your results chronologically. */
+SELECT year,
+       month,
+       SUM(volume) AS volume_sum
+  FROM tutorial.aapl_historical_stock_price
+ GROUP BY year, month
+ ORDER BY year, month
+ /* January seems like a heavy traded month */
+
+/* Write a query to calculate the average daily price change in Apple stock, grouped by year. */
+SELECT year,
+       AVG(close - open) AS avg_daily_change
+  FROM tutorial.aapl_historical_stock_price
+ GROUP BY 1
+ ORDER BY 1
+
+ /* Write a query that calculates the lowest and highest prices that Apple stock achieved each month. */
+ SELECT year,
+       month,
+       MIN(low) AS lowest_price,
+       MAX(high) AS highest_price
+  FROM tutorial.aapl_historical_stock_price
+ GROUP BY 1, 2
+ ORDER BY 1, 2
+
+
+ /* 
+
